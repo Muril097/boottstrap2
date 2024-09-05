@@ -1,0 +1,13 @@
+.tab {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.tav>div:nth-child(4n+1),
+.tab>div:nth-child(4n+1),
+.tav>div:nth-child(4n+1),
+.tab>div:nth-child(4n+2){
+    background-color: rgba(25, 40, 58, 0.534);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
